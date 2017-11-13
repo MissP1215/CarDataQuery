@@ -1,0 +1,177 @@
+body {
+    padding: 0;
+    margin: 0;
+    /* background-color: #efefef; */
+}
+
+p {
+    padding: 0;
+    margin: 0;
+}
+
+h1,
+h2 {
+    font-weight: normal;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+input,
+button,
+select {
+    outline: none;
+    border: none;
+}
+
+.area {
+    margin: 100px auto;
+    width: 300px;
+    height: 150px;
+}
+
+.item {
+    float: left;
+    clear: both;
+    margin-bottom: 23px;
+}
+
+.cxPorts {
+    overflow: hidden;
+    line-height: 45px;
+    padding-left: 13px;
+    border-bottom: 1px solid #ddd;
+}
+
+
+/* 向上的箭头 */
+
+.dot-top {
+    font-size: 0;
+    line-height: 0;
+    border-width: 10px;
+    border-color: #111;
+    border-top-width: 0;
+    border-style: dashed;
+    border-bottom-style: solid;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+
+
+/* 向右的实心箭头 */
+
+.dot-right {
+    font-size: 0;
+    line-height: 0;
+    border-width: 10px;
+    border-color: #111;
+    border-right-width: 0;
+    border-style: dashed;
+    border-left-style: solid;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+}
+
+
+/* 向下的实心箭头 */
+
+.dot-bottom {
+    font-size: 0;
+    line-height: 0;
+    border-width: 10px;
+    border-color: #111;
+    border-bottom-width: 0;
+    border-style: dashed;
+    border-top-style: solid;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+
+
+/* 向左的箭头 */
+
+.dot-left {
+    font-size: 0;
+    line-height: 0;
+    border-width: 10px;
+    border-color: #111;
+    border-left-width: 0;
+    border-style: dashed;
+    border-right-style: solid;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+}
+
+
+/*空心箭头*/
+
+.arrow_right {
+    display: inline-block;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+    width: 10px;
+    height: 10px;
+    transform: rotate(-45deg);
+}
+
+.arrow_left {
+    display: inline-block;
+    border-left: 1px solid;
+    border-bottom: 1px solid;
+    width: 10px;
+    height: 10px;
+    transform: rotate(45deg);
+}
+
+.arrow_top {
+    display: inline-block;
+    border-left: 1px solid;
+    border-top: 1px solid;
+    width: 10px;
+    height: 10px;
+    transform: rotate(45deg);
+}
+
+.arrow_bottom {
+    display: inline-block;
+    border-right: 1px solid;
+    border-top: 1px solid;
+    width: 10px;
+    height: 10px;
+    transform: rotate(225deg);
+}
+
+.arrow_t {
+    display: inline-block;
+    border: 10px solid transparent;
+    border-left: 10px solid #000;
+    width: 10px;
+    height: 10px;
+    transform: rotate(-45deg);
+}
+
+.bcolor {
+    background-color: #dcdcdc;
+}
+
+header {
+    position: relative;
+    border-bottom: 1px solid #ddd;
+    line-height: 50px;
+    height: 50px;
+    font-size: 17px;
+    span {
+        position: absolute;
+        left: 20px;
+        top: 20px;
+        font-size: 22px;
+    }
+}

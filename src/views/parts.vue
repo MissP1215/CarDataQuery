@@ -1,0 +1,80 @@
+<template>
+	<div class="home">
+		<div class="content">
+			<div class="cxName cxPorts">本田 雅阁2013款 2.0T 豪华版
+				<span class="arrow_right"></span>
+			</div>
+			<div class="cxPorts">
+				<select>
+					<option value="零件名">零件名</option>
+					<option value="零件名">OE码</option>
+				</select>
+				<input type="text" placeholder="请输入零件名称">
+				
+			</div>
+			<div class="part">
+				<p>零件名</p>
+				<p>OE码</p>
+			</div>
+		</div>
+	</div>
+</template>
+<script>
+	export default {
+		name: 'HelloWorld',
+		data() {	
+			return {		
+				todos: [
+					{
+						title: '车型名称',
+						text: '2015款2.0T手一体  豪华版'
+					},
+					{
+						title: '雅阁HG7203AB轿车',
+						text: '2015款2.0T手一体  豪华版'
+					},
+					{
+						title: '车型名称',
+						text: '{年款} {排量} {变速箱类型} {配置}'
+					},
+					{
+						title: '奔驰s300',
+						text: '{年款} {排量} {变速箱类型} {配置}'
+					}
+				]
+			}	
+		}	
+	}
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style scoped lang="scss">
+@import '../assets/style/mixin.scss';
+.content {
+	.cxName {
+		position: relative;
+		overflow: hidden;
+		.arrow_right {
+			width: 8px;
+			height: 8px;
+			position: absolute;
+			top: 18px;
+			right: 18px;
+		}
+	}
+	.cxPorts {
+		select {
+			font-size: 14px;
+		}
+	}
+	.part {
+		p {
+			line-height: 45px;
+			font-size: 12px;
+			border-bottom: 1px solid #ddd;
+			margin-left: 13px;
+		}
+	}
+	
+}
+</style>
